@@ -1,0 +1,9 @@
+pandas
+notebook
+ipykernel
+matplotlib
+opencv-python
+gensim
+nltk
+tensorflow
+scikit-learn

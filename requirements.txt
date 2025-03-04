@@ -7,3 +7,6 @@ gensim
 nltk
 tensorflow
 scikit-learn
+sentence-transformers
+imbalanced-learn
+tf-keras

@@ -1,0 +1,22 @@
+# Text-specific configurations
+text_model:
+  preprocessing:
+    return_lst: False
+
+  vectorization:    
+    word2vec:
+      window: 5
+      sg: 1
+
+  classifiers:
+    LogisticRegression:
+      max_iter: 1000
+    
+    
+    RandomForest:
+      n_estimators: 100
+      random_state: 42
+    
+    DecisionTree:
+      max_depth: 5
+      random_state: 42
